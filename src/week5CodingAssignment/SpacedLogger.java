@@ -8,6 +8,13 @@ public class SpacedLogger implements Logger{
 		
 		
 	}
+	
+	@Override
+	public void error(String error) {
+		System.out.println("ERROR: "+ userInput(error));
+		System.out.println("");
+		
+	}
 
 	private String userInput(String userInput) {
 		StringBuilder result = new StringBuilder();
@@ -19,17 +26,12 @@ public class SpacedLogger implements Logger{
 				result.append(userInput.charAt(i));
 			}
 		}
-			
+		
 			return result.toString();
+			
 	
 	}
-
-	@Override
-	public void error(String error) {
-		
-		
-	}
-
+	
 
 
 	
