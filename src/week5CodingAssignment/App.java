@@ -22,6 +22,16 @@ public class App {
 		System.out.println("*********************");
 		
 		
+		
+		Logger loggerSpace = new SpacedLogger();
+		loggerSpace.log(userInput);
+		loggerSpace.error(userInput);
+		
+	
+		
+
+		
+		
 	}
 
 }

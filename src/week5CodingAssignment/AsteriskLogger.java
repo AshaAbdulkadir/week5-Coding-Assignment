@@ -12,8 +12,10 @@ public class AsteriskLogger implements Logger {
 	@Override
 	public void error(String error) {
 		
-		System.out.println("***ERROR: " + error + "***");
+		System.out.println("**ERROR: " + error + "**");
 		
 	}
+
+
 
 }
